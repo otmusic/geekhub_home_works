@@ -35,17 +35,17 @@
 @property (weak, nonatomic) IBOutlet UIButton *imageLabel;
 @property (weak, nonatomic) IBOutlet UIImageView *imageSrc;
 
-- (IBAction)changeButtonClickd;
+- (IBAction)changeButtonClickd:(id)sender;
 
 - (IBAction)changeSegmentController:(id)sender;
 
 - (IBAction)inputTextChanged:(id)sender;
 
-- (IBAction)loaderLabelClick;
+- (IBAction)loaderLabelClick:(id)sender;
 
-- (IBAction)stepperChanged;
+- (IBAction)stepperChanged:(id)sender;
 
-- (IBAction)imageLabelClick;
+- (IBAction)imageLabelClick:(id)sender;
 
 @end
 

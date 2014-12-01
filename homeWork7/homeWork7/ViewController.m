@@ -49,7 +49,7 @@
 	}
 }
 
-- (IBAction)changeButtonClickd
+- (IBAction)changeButtonClickd:(id)sender
 {
 	changeTextLabel.text = @"Trance";
 }
@@ -71,18 +71,18 @@
 	[switcherAlert show];
 }
 
-- (IBAction)loaderLabelClick
+- (IBAction)loaderLabelClick:(id)sender
 {
 	[loaderImg startAnimating];
 }
 
-- (IBAction)stepperChanged
+- (IBAction)stepperChanged:(id)sender
 {
 	NSString *value = [@(stepper.value) stringValue];
 	stepperLabel.text = value;
 }
 
-- (IBAction)imageLabelClick
+- (IBAction)imageLabelClick:(id)sender
 {
 	imageSrc.image = [UIImage imageNamed:@"wao138.jpg"];
 }
