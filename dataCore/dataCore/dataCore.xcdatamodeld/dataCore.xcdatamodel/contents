@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6254" systemVersion="14B25" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Comment" representedClassName="Comment" parentEntity="DataModelBaseObject" syncable="YES">
+        <attribute name="comment" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="task" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Task" inverseName="comments" inverseEntity="Task" syncable="YES"/>
+    </entity>
+    <entity name="DataModelBaseObject" representedClassName="DataModelBaseObject" syncable="YES">
+        <attribute name="createdAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="identifier" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="Task" representedClassName="Task" parentEntity="DataModelBaseObject">
+        <attribute name="name" optional="YES" attributeType="String">
+            <userInfo/>
+        </attribute>
+        <relationship name="comments" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Comment" inverseName="task" inverseEntity="Comment" syncable="YES"/>
+        <userInfo/>
+    </entity>
+    <elements>
+        <element name="Task" positionX="106" positionY="210" width="128" height="73"/>
+        <element name="Comment" positionX="367" positionY="134" width="128" height="73"/>
+        <element name="DataModelBaseObject" positionX="270" positionY="-36" width="128" height="73"/>
+    </elements>
+</model>
