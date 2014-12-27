@@ -37,7 +37,7 @@
 #ifdef DEBUG
 - (NSString *) description
 {
-	return [NSString stringWithFormat:@"User id = %@\nname = %@\n ",
+	return [NSString stringWithFormat:@"Task id = %@\nname = %@\n ",
 			self.identifier,
 			self.name
 			];

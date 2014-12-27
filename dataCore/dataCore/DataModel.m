@@ -112,6 +112,14 @@
 	return (tasks && [tasks count] > 0) ? [tasks firstObject] : nil;
 }
 
+- (Comment *) getCommentByID:(unsigned long long) commentID
+{
+	NSPredicate * predicate = [NSPredicate predicateWithFormat:@"identifier=%llu", commentID];
+	if (!predicate) return nil;
+	NSArray * comments = [self fetchEntitiesForName:@"Comment" withPredicate:predicate];
+	return (comments && [comments count] > 0) ? [comments firstObject] : nil;
+}
+
 - (NSURL *)applicationDocumentsDirectory {
 	return [[[NSFileManager defaultManager] URLsForDirectory:NSDocumentDirectory inDomains:NSUserDomainMask] lastObject];
 }

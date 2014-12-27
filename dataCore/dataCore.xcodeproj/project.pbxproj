@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B9878BE41A4D9069002CA7B8 /* EditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9878BE31A4D9069002CA7B8 /* EditViewController.m */; };
 		B9D8B2941A45DA8300E5AEAB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B9D8B2931A45DA8300E5AEAB /* main.m */; };
 		B9D8B2971A45DA8300E5AEAB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B9D8B2961A45DA8300E5AEAB /* AppDelegate.m */; };
 		B9D8B29A1A45DA8300E5AEAB /* dataCore.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B9D8B2981A45DA8300E5AEAB /* dataCore.xcdatamodeld */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B9878BE21A4D9069002CA7B8 /* EditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditViewController.h; sourceTree = "<group>"; };
+		B9878BE31A4D9069002CA7B8 /* EditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditViewController.m; sourceTree = "<group>"; };
 		B9D8B28E1A45DA8300E5AEAB /* dataCore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dataCore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9D8B2921A45DA8300E5AEAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B9D8B2931A45DA8300E5AEAB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -114,6 +117,8 @@
 				B9D8B29C1A45DA8300E5AEAB /* MasterViewController.m */,
 				B9D8B29E1A45DA8300E5AEAB /* DetailViewController.h */,
 				B9D8B29F1A45DA8300E5AEAB /* DetailViewController.m */,
+				B9878BE21A4D9069002CA7B8 /* EditViewController.h */,
+				B9878BE31A4D9069002CA7B8 /* EditViewController.m */,
 				B9D8B2A11A45DA8300E5AEAB /* Main.storyboard */,
 				B9D8B2A41A45DA8300E5AEAB /* Images.xcassets */,
 				B9D8B2A61A45DA8300E5AEAB /* LaunchScreen.xib */,
@@ -279,6 +284,7 @@
 				B9D8B2CC1A45E0C500E5AEAB /* Task+DataModel.m in Sources */,
 				B9D8B2D21A45E37500E5AEAB /* DataModelBaseObject+DataModel.m in Sources */,
 				B9D8B2971A45DA8300E5AEAB /* AppDelegate.m in Sources */,
+				B9878BE41A4D9069002CA7B8 /* EditViewController.m in Sources */,
 				B9D8B29A1A45DA8300E5AEAB /* dataCore.xcdatamodeld in Sources */,
 				B9D8B2941A45DA8300E5AEAB /* main.m in Sources */,
 				B9D8B2D51A45E42600E5AEAB /* Comment+DataModel.m in Sources */,
@@ -472,6 +478,7 @@
 				B9D8B2B91A45DA8300E5AEAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B9D8B2BA1A45DA8300E5AEAB /* Build configuration list for PBXNativeTarget "dataCoreTests" */ = {
 			isa = XCConfigurationList;
@@ -480,6 +487,7 @@
 				B9D8B2BC1A45DA8300E5AEAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

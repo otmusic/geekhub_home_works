@@ -47,7 +47,7 @@
  @return Task object or nil.
  */
 - (Task *) getTaskByID:(unsigned long long) taskID;
-
+- (Comment *) getCommentByID:(unsigned long long) commentID;
 
 
 - (void) saveContext;

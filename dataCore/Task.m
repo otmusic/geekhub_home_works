@@ -13,6 +13,8 @@
 @implementation Task
 
 @dynamic name;
+@dynamic comment;
+@dynamic compleated;
 @dynamic comments;
 
 @end

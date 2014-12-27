@@ -15,6 +15,9 @@
 @interface Task : DataModelBaseObject
 
 @property (nonatomic, retain) NSString * name;
+@property (nonatomic, retain) NSString * comment;
+@property (nonatomic, retain) NSNumber * compleated;
+
 @property (nonatomic, retain) NSSet *comments;
 @end
 
