@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B934B6821A4F7A9A002AE09C /* landing.xib in Resources */ = {isa = PBXBuildFile; fileRef = B934B6811A4F7A9A002AE09C /* landing.xib */; };
+		B934B6851A4F8A2E002AE09C /* PageItemController.m in Sources */ = {isa = PBXBuildFile; fileRef = B934B6841A4F8A2E002AE09C /* PageItemController.m */; };
+		B9878BF41A4D99E1002CA7B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B9878BF31A4D99E1002CA7B8 /* main.m */; };
+		B9878BF71A4D99E1002CA7B8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B9878BF61A4D99E1002CA7B8 /* AppDelegate.m */; };
+		B9878BFA1A4D99E1002CA7B8 /* landingEvernote.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B9878BF81A4D99E1002CA7B8 /* landingEvernote.xcdatamodeld */; };
+		B9878BFD1A4D99E1002CA7B8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9878BFC1A4D99E1002CA7B8 /* ViewController.m */; };
+		B9878C001A4D99E1002CA7B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9878BFE1A4D99E1002CA7B8 /* Main.storyboard */; };
+		B9878C021A4D99E1002CA7B8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9878C011A4D99E1002CA7B8 /* Images.xcassets */; };
+		B9878C051A4D99E1002CA7B8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9878C031A4D99E1002CA7B8 /* LaunchScreen.xib */; };
+		B9878C111A4D99E1002CA7B8 /* landingEvernoteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B9878C101A4D99E1002CA7B8 /* landingEvernoteTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B9878C0B1A4D99E1002CA7B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9878BE61A4D99E1002CA7B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9878BED1A4D99E1002CA7B8;
+			remoteInfo = landingEvernote;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B934B6811A4F7A9A002AE09C /* landing.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = landing.xib; sourceTree = "<group>"; };
+		B934B6831A4F8A2E002AE09C /* PageItemController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageItemController.h; sourceTree = "<group>"; };
+		B934B6841A4F8A2E002AE09C /* PageItemController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageItemController.m; sourceTree = "<group>"; };
+		B9878BEE1A4D99E1002CA7B8 /* landingEvernote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = landingEvernote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9878BF21A4D99E1002CA7B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9878BF31A4D99E1002CA7B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B9878BF51A4D99E1002CA7B8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B9878BF61A4D99E1002CA7B8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B9878BF91A4D99E1002CA7B8 /* landingEvernote.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = landingEvernote.xcdatamodel; sourceTree = "<group>"; };
+		B9878BFB1A4D99E1002CA7B8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B9878BFC1A4D99E1002CA7B8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B9878BFF1A4D99E1002CA7B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B9878C011A4D99E1002CA7B8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B9878C041A4D99E1002CA7B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B9878C0A1A4D99E1002CA7B8 /* landingEvernoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = landingEvernoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9878C0F1A4D99E1002CA7B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9878C101A4D99E1002CA7B8 /* landingEvernoteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = landingEvernoteTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B9878BEB1A4D99E1002CA7B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9878C071A4D99E1002CA7B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B9878BE51A4D99E1002CA7B8 = {
+			isa = PBXGroup;
+			children = (
+				B9878BF01A4D99E1002CA7B8 /* landingEvernote */,
+				B9878C0D1A4D99E1002CA7B8 /* landingEvernoteTests */,
+				B9878BEF1A4D99E1002CA7B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B9878BEF1A4D99E1002CA7B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9878BEE1A4D99E1002CA7B8 /* landingEvernote.app */,
+				B9878C0A1A4D99E1002CA7B8 /* landingEvernoteTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9878BF01A4D99E1002CA7B8 /* landingEvernote */ = {
+			isa = PBXGroup;
+			children = (
+				B9878BF51A4D99E1002CA7B8 /* AppDelegate.h */,
+				B9878BF61A4D99E1002CA7B8 /* AppDelegate.m */,
+				B934B6811A4F7A9A002AE09C /* landing.xib */,
+				B934B6831A4F8A2E002AE09C /* PageItemController.h */,
+				B934B6841A4F8A2E002AE09C /* PageItemController.m */,
+				B9878BFB1A4D99E1002CA7B8 /* ViewController.h */,
+				B9878BFC1A4D99E1002CA7B8 /* ViewController.m */,
+				B9878BFE1A4D99E1002CA7B8 /* Main.storyboard */,
+				B9878C011A4D99E1002CA7B8 /* Images.xcassets */,
+				B9878C031A4D99E1002CA7B8 /* LaunchScreen.xib */,
+				B9878BF81A4D99E1002CA7B8 /* landingEvernote.xcdatamodeld */,
+				B9878BF11A4D99E1002CA7B8 /* Supporting Files */,
+			);
+			path = landingEvernote;
+			sourceTree = "<group>";
+		};
+		B9878BF11A4D99E1002CA7B8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B9878BF21A4D99E1002CA7B8 /* Info.plist */,
+				B9878BF31A4D99E1002CA7B8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B9878C0D1A4D99E1002CA7B8 /* landingEvernoteTests */ = {
+			isa = PBXGroup;
+			children = (
+				B9878C101A4D99E1002CA7B8 /* landingEvernoteTests.m */,
+				B9878C0E1A4D99E1002CA7B8 /* Supporting Files */,
+			);
+			path = landingEvernoteTests;
+			sourceTree = "<group>";
+		};
+		B9878C0E1A4D99E1002CA7B8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B9878C0F1A4D99E1002CA7B8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B9878BED1A4D99E1002CA7B8 /* landingEvernote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9878C141A4D99E1002CA7B8 /* Build configuration list for PBXNativeTarget "landingEvernote" */;
+			buildPhases = (
+				B9878BEA1A4D99E1002CA7B8 /* Sources */,
+				B9878BEB1A4D99E1002CA7B8 /* Frameworks */,
+				B9878BEC1A4D99E1002CA7B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = landingEvernote;
+			productName = landingEvernote;
+			productReference = B9878BEE1A4D99E1002CA7B8 /* landingEvernote.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B9878C091A4D99E1002CA7B8 /* landingEvernoteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9878C171A4D99E1002CA7B8 /* Build configuration list for PBXNativeTarget "landingEvernoteTests" */;
+			buildPhases = (
+				B9878C061A4D99E1002CA7B8 /* Sources */,
+				B9878C071A4D99E1002CA7B8 /* Frameworks */,
+				B9878C081A4D99E1002CA7B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9878C0C1A4D99E1002CA7B8 /* PBXTargetDependency */,
+			);
+			name = landingEvernoteTests;
+			productName = landingEvernoteTests;
+			productReference = B9878C0A1A4D99E1002CA7B8 /* landingEvernoteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9878BE61A4D99E1002CA7B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Alexandr Kharchenko";
+				TargetAttributes = {
+					B9878BED1A4D99E1002CA7B8 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					B9878C091A4D99E1002CA7B8 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = B9878BED1A4D99E1002CA7B8;
+					};
+				};
+			};
+			buildConfigurationList = B9878BE91A4D99E1002CA7B8 /* Build configuration list for PBXProject "landingEvernote" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B9878BE51A4D99E1002CA7B8;
+			productRefGroup = B9878BEF1A4D99E1002CA7B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9878BED1A4D99E1002CA7B8 /* landingEvernote */,
+				B9878C091A4D99E1002CA7B8 /* landingEvernoteTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9878BEC1A4D99E1002CA7B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9878C001A4D99E1002CA7B8 /* Main.storyboard in Resources */,
+				B934B6821A4F7A9A002AE09C /* landing.xib in Resources */,
+				B9878C051A4D99E1002CA7B8 /* LaunchScreen.xib in Resources */,
+				B9878C021A4D99E1002CA7B8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9878C081A4D99E1002CA7B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B9878BEA1A4D99E1002CA7B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9878BFA1A4D99E1002CA7B8 /* landingEvernote.xcdatamodeld in Sources */,
+				B934B6851A4F8A2E002AE09C /* PageItemController.m in Sources */,
+				B9878BF71A4D99E1002CA7B8 /* AppDelegate.m in Sources */,
+				B9878BFD1A4D99E1002CA7B8 /* ViewController.m in Sources */,
+				B9878BF41A4D99E1002CA7B8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9878C061A4D99E1002CA7B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9878C111A4D99E1002CA7B8 /* landingEvernoteTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B9878C0C1A4D99E1002CA7B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9878BED1A4D99E1002CA7B8 /* landingEvernote */;
+			targetProxy = B9878C0B1A4D99E1002CA7B8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B9878BFE1A4D99E1002CA7B8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9878BFF1A4D99E1002CA7B8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B9878C031A4D99E1002CA7B8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9878C041A4D99E1002CA7B8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B9878C121A4D99E1002CA7B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B9878C131A4D99E1002CA7B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B9878C151A4D99E1002CA7B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = landingEvernote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B9878C161A4D99E1002CA7B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = landingEvernote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B9878C181A4D99E1002CA7B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = landingEvernoteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/landingEvernote.app/landingEvernote";
+			};
+			name = Debug;
+		};
+		B9878C191A4D99E1002CA7B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = landingEvernoteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/landingEvernote.app/landingEvernote";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B9878BE91A4D99E1002CA7B8 /* Build configuration list for PBXProject "landingEvernote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9878C121A4D99E1002CA7B8 /* Debug */,
+				B9878C131A4D99E1002CA7B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9878C141A4D99E1002CA7B8 /* Build configuration list for PBXNativeTarget "landingEvernote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9878C151A4D99E1002CA7B8 /* Debug */,
+				B9878C161A4D99E1002CA7B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9878C171A4D99E1002CA7B8 /* Build configuration list for PBXNativeTarget "landingEvernoteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9878C181A4D99E1002CA7B8 /* Debug */,
+				B9878C191A4D99E1002CA7B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B9878BF81A4D99E1002CA7B8 /* landingEvernote.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B9878BF91A4D99E1002CA7B8 /* landingEvernote.xcdatamodel */,
+			);
+			currentVersion = B9878BF91A4D99E1002CA7B8 /* landingEvernote.xcdatamodel */;
+			path = landingEvernote.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B9878BE61A4D99E1002CA7B8 /* Project object */;
+}
