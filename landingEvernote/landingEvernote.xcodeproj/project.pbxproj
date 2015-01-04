@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B934B6821A4F7A9A002AE09C /* landing.xib in Resources */ = {isa = PBXBuildFile; fileRef = B934B6811A4F7A9A002AE09C /* landing.xib */; };
 		B934B6851A4F8A2E002AE09C /* PageItemController.m in Sources */ = {isa = PBXBuildFile; fileRef = B934B6841A4F8A2E002AE09C /* PageItemController.m */; };
 		B9878BF41A4D99E1002CA7B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B9878BF31A4D99E1002CA7B8 /* main.m */; };
 		B9878BF71A4D99E1002CA7B8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B9878BF61A4D99E1002CA7B8 /* AppDelegate.m */; };
@@ -30,7 +29,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B934B6811A4F7A9A002AE09C /* landing.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = landing.xib; sourceTree = "<group>"; };
 		B934B6831A4F8A2E002AE09C /* PageItemController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageItemController.h; sourceTree = "<group>"; };
 		B934B6841A4F8A2E002AE09C /* PageItemController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageItemController.m; sourceTree = "<group>"; };
 		B9878BEE1A4D99E1002CA7B8 /* landingEvernote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = landingEvernote.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -90,7 +88,6 @@
 			children = (
 				B9878BF51A4D99E1002CA7B8 /* AppDelegate.h */,
 				B9878BF61A4D99E1002CA7B8 /* AppDelegate.m */,
-				B934B6811A4F7A9A002AE09C /* landing.xib */,
 				B934B6831A4F8A2E002AE09C /* PageItemController.h */,
 				B934B6841A4F8A2E002AE09C /* PageItemController.m */,
 				B9878BFB1A4D99E1002CA7B8 /* ViewController.h */,
@@ -211,7 +208,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9878C001A4D99E1002CA7B8 /* Main.storyboard in Resources */,
-				B934B6821A4F7A9A002AE09C /* landing.xib in Resources */,
 				B9878C051A4D99E1002CA7B8 /* LaunchScreen.xib in Resources */,
 				B9878C021A4D99E1002CA7B8 /* Images.xcassets in Resources */,
 			);

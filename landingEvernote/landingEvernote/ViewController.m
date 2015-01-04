@@ -9,7 +9,7 @@
 #import "ViewController.h"
 #import "PageItemController.h"
 
-@interface ViewController ()
+@interface ViewController () <UIPageViewControllerDataSource>
 
 @property (nonatomic, strong) NSArray *contentImages;
 @property (nonatomic, strong) UIPageViewController *pageViewController;
@@ -32,7 +32,7 @@
 - (void) createPageViewController
 {
 	contentImages = @[@"armin.png",
-					  @"alyfila.png",
+					  @"aly&fila.png",
 					  @"bryankearney.png"];
 	
 	UIPageViewController *pageController = [self.storyboard instantiateViewControllerWithIdentifier: @"PageController"];
@@ -91,7 +91,7 @@
 {
 	if (itemIndex < [contentImages count])
 	{
-		PageItemController *pageItemController = [self.storyboard instantiateViewControllerWithIdentifier: @"ItemController"];
+		PageItemController *pageItemController = [self.storyboard instantiateViewControllerWithIdentifier: @"PageItemController"];
 		pageItemController.itemIndex = itemIndex;
 		pageItemController.imageName = contentImages[itemIndex];
 		return pageItemController;

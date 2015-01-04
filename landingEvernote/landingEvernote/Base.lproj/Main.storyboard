@@ -22,10 +22,20 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
+        <!--Page View Controller-->
+        <scene sceneID="kcE-1c-IpU">
+            <objects>
+                <pageViewController storyboardIdentifier="PageController" autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="LmS-Wh-Nlv" sceneMemberID="viewController">
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </pageViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tNu-lK-riz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="579" y="145"/>
+        </scene>
         <!--Page Item Controller-->
         <scene sceneID="wGV-gs-97Y">
             <objects>
-                <viewController id="VB4-ZG-QRR" customClass="PageItemController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PageItemController" id="VB4-ZG-QRR" customClass="PageItemController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="FFy-ER-gTe"/>
                         <viewControllerLayoutGuide type="bottom" id="sAg-Ec-KNd"/>
@@ -34,20 +44,27 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vk8-su-xoJ">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vk8-su-xoJ">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.26779738248369278" green="0.68986555677789396" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="vk8-su-xoJ" secondAttribute="trailing" id="14S-Kf-puI"/>
+                            <constraint firstItem="vk8-su-xoJ" firstAttribute="leading" secondItem="0sW-50-2mn" secondAttribute="leading" id="nQ7-cl-14R"/>
+                            <constraint firstItem="sAg-Ec-KNd" firstAttribute="top" secondItem="vk8-su-xoJ" secondAttribute="bottom" id="qui-o0-z6T"/>
+                            <constraint firstItem="vk8-su-xoJ" firstAttribute="top" secondItem="0sW-50-2mn" secondAttribute="top" id="rhW-Um-PXt"/>
+                        </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                     <connections>
                         <outlet property="contentImageView" destination="vk8-su-xoJ" id="UNT-P0-OZH"/>
+                        <outlet property="view" destination="0sW-50-2mn" id="bWC-UF-EDi"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c34-F3-yQU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="621" y="339"/>
+            <point key="canvasLocation" x="560" y="691"/>
         </scene>
     </scenes>
 </document>
