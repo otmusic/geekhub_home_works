@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>07C29765-FC00-4EC4-8730-0D66CA8C0787</string>
+	<key>IDESourceControlProjectName</key>
+	<string>currency_exchange</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>1A774015C68CF9CA3C0BD2B62504715C197382BA</key>
+		<string>github.com:andrewsalive/geekhub-ios.git</string>
+		<key>37E70843FB4D87A75DE01D8FF76571AD86F4E854</key>
+		<string>github.com:Dadits/gh_home_works.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>homework11/currency_exchange/currency_exchange.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>1A774015C68CF9CA3C0BD2B62504715C197382BA</key>
+		<string>../../../../../geekhub-ios</string>
+		<key>37E70843FB4D87A75DE01D8FF76571AD86F4E854</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:Dadits/gh_home_works.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>37E70843FB4D87A75DE01D8FF76571AD86F4E854</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1A774015C68CF9CA3C0BD2B62504715C197382BA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>geekhub-ios</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>37E70843FB4D87A75DE01D8FF76571AD86F4E854</string>
+			<key>IDESourceControlWCCName</key>
+			<string>homeworks</string>
+		</dict>
+	</array>
+</dict>
+</plist>

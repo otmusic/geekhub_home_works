@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="6A4-VW-4fW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PBank Currency Exchange" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xla-60-1ha">
+                                <rect key="frame" x="52" y="69" width="271" height="27"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                <color key="textColor" red="0.064366691313773816" green="0.53284801136363635" blue="0.09752520415361382" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2ou-cz-bqE">
+                                <rect key="frame" x="225" y="104" width="130" height="162"/>
+                                <color key="tintColor" red="0.40392160420000001" green="0.6549019814" blue="0.20392158630000001" alpha="1" colorSpace="deviceRGB"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="vXZ-lx-hvc" id="4Sh-mn-8qO"/>
+                                    <outlet property="delegate" destination="vXZ-lx-hvc" id="1CI-ob-WUt"/>
+                                </connections>
+                            </pickerView>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="whS-AW-XfQ">
+                                <rect key="frame" x="23" y="104" width="130" height="162"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="vXZ-lx-hvc" id="654-NP-Tms"/>
+                                    <outlet property="delegate" destination="vXZ-lx-hvc" id="EAH-HT-KJk"/>
+                                </connections>
+                            </pickerView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mNy-VC-0PG">
+                                <rect key="frame" x="243" y="288" width="95" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="95" id="gZe-XB-zSt"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qw4-Uk-CT2">
+                                <rect key="frame" x="43" y="284" width="90" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="PZF-sV-Adb"/>
+                                    <constraint firstAttribute="width" constant="90" id="ixX-nm-yaL"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lb2-Yd-CyX">
+                                <rect key="frame" x="167" y="279" width="40" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Lat-Gr-DLV"/>
+                                    <constraint firstAttribute="width" constant="40" id="mm9-Uh-AqP"/>
+                                </constraints>
+                                <state key="normal" image="convert.png">
+                                    <color key="titleColor" red="0.40392160420000001" green="0.6549019814" blue="0.20392158630000001" alpha="1" colorSpace="deviceRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="doConvert:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="dgf-n9-6i1"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="mNy-VC-0PG" secondAttribute="trailing" constant="21" id="2mk-Q6-nls"/>
+                            <constraint firstItem="mNy-VC-0PG" firstAttribute="top" secondItem="2ou-cz-bqE" secondAttribute="bottom" constant="22" id="3Zr-ak-pnr"/>
+                            <constraint firstItem="mNy-VC-0PG" firstAttribute="centerX" secondItem="2ou-cz-bqE" secondAttribute="centerX" id="4J2-7L-REO"/>
+                            <constraint firstItem="2ou-cz-bqE" firstAttribute="top" secondItem="Xla-60-1ha" secondAttribute="bottom" constant="8" id="75X-ge-JrB"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="2ou-cz-bqE" secondAttribute="trailing" constant="4" id="CwD-iH-JiR"/>
+                            <constraint firstItem="whS-AW-XfQ" firstAttribute="top" secondItem="2ou-cz-bqE" secondAttribute="top" id="J3e-5P-RIT"/>
+                            <constraint firstItem="Lb2-Yd-CyX" firstAttribute="centerX" secondItem="Xla-60-1ha" secondAttribute="centerX" id="T4X-C2-ns3"/>
+                            <constraint firstItem="2ou-cz-bqE" firstAttribute="leading" secondItem="whS-AW-XfQ" secondAttribute="trailing" constant="72" id="anr-g9-cCl"/>
+                            <constraint firstItem="whS-AW-XfQ" firstAttribute="top" secondItem="Xla-60-1ha" secondAttribute="bottom" constant="8" symbolic="YES" id="cmf-mZ-sAH"/>
+                            <constraint firstItem="2ou-cz-bqE" firstAttribute="top" secondItem="6A4-VW-4fW" secondAttribute="top" constant="104" id="eOj-sO-kSL"/>
+                            <constraint firstItem="whS-AW-XfQ" firstAttribute="top" secondItem="6A4-VW-4fW" secondAttribute="top" constant="104" id="oNe-dN-IfT"/>
+                            <constraint firstItem="whS-AW-XfQ" firstAttribute="leading" secondItem="6A4-VW-4fW" secondAttribute="leadingMargin" constant="7" id="rEo-DZ-rSn"/>
+                            <constraint firstItem="mNy-VC-0PG" firstAttribute="leading" secondItem="Lb2-Yd-CyX" secondAttribute="trailing" constant="36" id="s0u-nQ-LqU"/>
+                            <constraint firstItem="qw4-Uk-CT2" firstAttribute="top" secondItem="whS-AW-XfQ" secondAttribute="bottom" constant="18" id="uKb-cM-j9G"/>
+                            <constraint firstItem="whS-AW-XfQ" firstAttribute="centerX" secondItem="qw4-Uk-CT2" secondAttribute="centerX" id="wRH-Qr-3Q1"/>
+                            <constraint firstItem="Lb2-Yd-CyX" firstAttribute="top" secondItem="qw4-Uk-CT2" secondAttribute="top" constant="-5" id="wwI-2z-cTe"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="J3e-5P-RIT"/>
+                                <exclude reference="cmf-mZ-sAH"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="pickFrom" destination="whS-AW-XfQ" id="8p2-1y-aiE"/>
+                        <outlet property="pickTo" destination="2ou-cz-bqE" id="TPS-H7-h69"/>
+                        <outlet property="resultField" destination="mNy-VC-0PG" id="ZbI-40-Z0H"/>
+                        <outlet property="sum" destination="qw4-Uk-CT2" id="R7I-T4-IRu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="339.5" y="436.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="convert.png" width="22" height="22"/>
+    </resources>
+</document>
